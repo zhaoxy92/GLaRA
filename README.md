@@ -5,7 +5,7 @@ This paper is the code release of the paper [GLaRA: Graph-based Labeling Rule Au
 This work aims at improving weakly supervised named entity reconigtion systems by automatically finding new rules that are helpful at identifying entities from data. The idea is, as shown in the following figure, if we know *rule1: associated with->Disease* is an accurate rule and it is semantically related to *rule2: cause of->Disease*, we should be able use *rule2* as another accurate rule for identifying Disease entities.
 
 
-<img align="center" src="./images/rule-example.png" width="750" />
+<img align="center" src="./images/rule-example.png" width="500" />
 
 
 The overall workflow is illustrated as below:

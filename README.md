@@ -32,13 +32,13 @@ For a specific type of rules, we frist extract a large set of possible rule cand
 The experiments on the three data sets are independently conducted. To run experiments for one task, (i.e NCBI), please go into folder "code-NCBI"
 
 1. Extract candidate rules for each type and cache embeddings, edges, seeds, etc.
-  - run `python 1_prepare_candidates_and_embeddings.py --dataset NCBI --rule_type SurfaceForm` to cache candidate rules, embeddings, edges, etc., for ***SurfaceForm*** rule.
-  - other rule types are ***Suffix***, ***Prefix***, ***InclusivePreNgram***, ***ExclusivePreNgram***, ***InclusivePostNgram***, ***ExclusivePostNgram***, and ***Dependency***.
-  - all cached data will be save into the folder "cached_seeds_and_embeddings".
+  - run `python 1_prepare_candidates_and_embeddings.py --dataset NCBI --rule_type SurfaceForm` to cache candidate rules, embeddings, edges, etc., for `SurfaceForm` rule.
+  - other rule types are `Suffix`, `Prefix`, `InclusivePreNgram`, `ExclusivePreNgram`, `InclusivePostNgram`, `ExclusivePostNgram`, and `Dependency`.
+  - all cached data will be save into the folder `cached_seeds_and_embeddings`.
 
 2. Train propogation and find new rules.
-  - run `python 2_propagate.py --dataset NCBI --rule_type SurfaceForm` to learn ***SurfaceForm*** rules. 
-  - other rules are ***Suffix***, ***Prefix***, ***InclusivePreNgram***, ***ExclusivePreNgram***, ***InclusivePostNgram***, ***ExclusivePostNgram***, and ***Dependency***.
+  - run `python 2_propagate.py --dataset NCBI --rule_type SurfaceForm` to learn `SurfaceForm` rules. 
+  - other rules are `Suffix`, `Prefix`, `InclusivePreNgram`, `ExclusivePreNgram`, `InclusivePostNgram`, `ExclusivePostNgram`, and `Dependency`.
  
 3. Train LinkedHMM generative model
   - run `python 3_train_generative_model.py --dataset NCBI --use_SurfaceForm --use_Suffix --use_Prefix --use_InclusivePostNgram --use_Dependency`.

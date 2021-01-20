@@ -29,5 +29,6 @@ For a specific type of rules, we frist extract a large set of possible rule cand
   - For saving the time of reading data, we cache all datasets into picked objects: `python cache_datasets.py` 
 
 ## Run experiments
--  The experiments on the three data sets are independently conducted. To run experiments for one task, (i.e NCBI), please go into folder "code-NCBI"
-    1. step 1. extract candidate rules for each type and cache embeddings, edges, seeds, etc.
+The experiments on the three data sets are independently conducted. To run experiments for one task, (i.e NCBI), please go into folder "code-NCBI"
+
+1. Extract candidate rules for each type and cache embeddings, edges, seeds, etc.

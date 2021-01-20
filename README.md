@@ -2,7 +2,7 @@
 
 This paper is the code release of the paper [GLaRA: Graph-based Labeling Rule Augmentation for Weakly Supervised Named Entity Recognition] (https://github.com/zhaoxy92/GLaRA), which is accepted at EACL-2021.
 
-This work aims at improving weakly supervised named entity reconigtion systems by automatically finding new rules that are helpful at identifying entities from data. The idea is, as shown in the following figure, if we know *rule1: associated with->Disease* is an accurate rule and it is semantically related to *rule2: cause of->Disease*, we should be able use *rule2* as another accurate rule for identifying Disease entities.
+This work aims at improving weakly supervised named entity reconigtion systems by automatically finding new rules that are helpful at identifying entities from data. The idea is, as shown in the following figure, if we know ***rule1: associated with->Disease*** is an accurate rule and it is semantically related to ***rule2: cause of->Disease***, we should be able use ***rule2*** as another accurate rule for identifying Disease entities.
 
 
 <img align="center" src="./images/rule-example.png" width="500" />
@@ -16,3 +16,9 @@ For a specific type of rules, we frist extract a large set of possible rule cand
 
 
 ## Installation
+
+1. Install required libraries
+  - install LinkedHMM by running "pip -r requirements.txt" in command line.
+  - install Pytorch at https://pytorch.org/
+  - install Transformers at https://huggingface.co/transformers/installation.html
+  - install pytorch-geometric at https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html

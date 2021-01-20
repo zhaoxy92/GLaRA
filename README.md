@@ -18,7 +18,7 @@ For a specific type of rules, we frist extract a large set of possible rule cand
 ## Installation
 
 1. Install required libraries
-  - install LinkedHMM by running "pip -r requirements.txt" in command line.
+  - install LinkedHMM by running `pip -r requirements.txt` in command line.
   - install Pytorch at https://pytorch.org/
   - install Transformers at https://huggingface.co/transformers/installation.html
   - install pytorch-geometric at https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html

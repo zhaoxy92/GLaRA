@@ -1,0 +1,57 @@
+{
+    "SurfaceForm":{
+        "epochs":50,
+        "num_of_pattern_to_save": 100,
+        "num_round_to_integrate":5,
+        "pos_train_percent": 0.8,
+        "neg_train_percent": 0.8
+    },
+    
+    "Suffix":{
+        "epochs":50,
+        "num_of_pattern_to_save": 25,
+        "num_round_to_integrate":5,
+        "pos_train_percent": 0.8,
+        "neg_train_percent": 0.8
+    },
+    
+    "Prefix":{
+        "epochs":50,
+        "num_of_pattern_to_save": 5,
+        "num_round_to_integrate":5,
+        "pos_train_percent": 0.8,
+        "neg_train_percent": 0.8
+    },
+    
+    "InclusivePreNgram":{
+        "epochs":30,
+        "num_of_pattern_to_save": 50,
+        "num_round_to_integrate":5,
+        "pos_train_percent": 0.8,
+        "neg_train_percent": 0.8
+    },
+    
+    "ExclusivePreNgram":{
+        "epochs":50,
+        "num_of_pattern_to_save": 25,
+        "num_round_to_integrate":5,
+        "pos_train_percent": 0.8,
+        "neg_train_percent": 0.8
+    },
+    
+    "InclusivePostNgram":{
+        "epochs":30,
+        "num_of_pattern_to_save": 20,
+        "num_round_to_integrate":5,
+        "pos_train_percent": 0.8,
+        "neg_train_percent": 0.8
+    },
+        
+    "Dependency":{
+        "epochs":50,
+        "num_of_pattern_to_save": 20,
+        "num_round_to_integrate":5,
+        "pos_train_percent": 0.8,
+        "neg_train_percent": 0.8
+    }
+}

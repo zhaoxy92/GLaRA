@@ -1,0 +1,1 @@
+python 1_propagate.py --dataset BC5CDR --rule_type SurfaceForm --label_type Disease

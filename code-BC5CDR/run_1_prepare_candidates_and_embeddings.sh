@@ -1,0 +1,1 @@
+python 1_prepare_candidates_and_embeddings.py --dataset BC5CDR --rule_type SurfaceForm --label_type Disease

@@ -18,7 +18,7 @@ For a specific type of rules, we frist extract a large set of possible rule cand
 ## Installation
 
 1. Install required libraries
-  - Install LinkedHMM by running `pip -r requirements.txt` in command line.
+  - Install LinkedHMM[[1]](#1) by running `pip -r requirements.txt` in command line.
   - Install Pytorch at https://pytorch.org/
   - Install Transformers at https://huggingface.co/transformers/installation.html
   - Install pytorch-geometric at https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html
@@ -47,3 +47,9 @@ The experiments on the three data sets are independently conducted. To run exper
 4. Train discriminative model
   - run `create_dataset_for_bert_tagger.py` to prepare dataset for training the tagging model. (make sure to change the `dataset` and `data_name` variables in the file first.)
   - run `train_discriminative_model.py`
+  
+## References
+
+<a id="1">[1]</a> 
+Esteban Safranchik, Shiying Luo, Stephen H. Bach.
+Weakly Supervised Sequence Tagging from Noisy Rules.

@@ -24,8 +24,8 @@ For a specific type of rules, we frist extract a large set of possible rule cand
   - Install pytorch-geometric at https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html
 
 2. Download dataset
-  - Once LinkedHMM is successfully installed, move all the files in "data" fold under LinkedHMM directory to the "datasets" folder in the currect directory.
-  - Download pretrained sciBERT embeddings here: https://huggingface.co/allenai/scibert_scivocab_uncased, and move it to the folder "pretrained-model".
+    - Once LinkedHMM is successfully installed, move all the files in "data" fold under LinkedHMM directory to the "datasets" folder in the currect directory.
+    - Download pretrained sciBERT embeddings here: https://huggingface.co/allenai/scibert_scivocab_uncased, and move it to the folder "pretrained-model".
   - For saving the time of reading data, we cache all datasets into picked objects: `python cache_datasets.py` 
 
 ## Run experiments

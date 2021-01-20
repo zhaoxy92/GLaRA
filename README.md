@@ -18,7 +18,7 @@ For a specific type of rules, we frist extract a large set of possible rule cand
 ## Installation
 
 1. Install required libraries
-  - Install LinkedHMM[[1]](#1) by running `pip -r requirements.txt` in command line, or from the official repo https://github.com/BatsResearch/safranchik-aaai20-code.
+  - Install LinkedHMM[[1]](#1) by running `pip -r requirements.txt` in command line, or from the official repo: https://github.com/BatsResearch/safranchik-aaai20-code.
   - Install Pytorch at https://pytorch.org/
   - Install Transformers at https://huggingface.co/transformers/installation.html
   - Install pytorch-geometric at https://pytorch-geometric.readthedocs.io/en/latest/notes/installation.html
